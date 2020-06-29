@@ -1,0 +1,409 @@
+/*reset*/
+
+* {
+
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	font-size: 16px;
+
+}
+
+.nav-icon, .mobile-navbar {
+
+	display: none;
+
+}
+html, body {
+    background-color: #008b8b;
+  	overflow-x: hidden;
+  	width: 100%;
+  	font-family: "Lato", sans-serif;
+  	font-size: 16px;
+
+
+}
+
+/*style the header */
+
+header {
+
+  	height: 10vh;
+	background-color: #2E2630;
+	font-family: "Gugi", cursive;
+}
+header .nav {
+
+	display: flex;
+  	flex-direction: row;
+  	justify-content: flex-end;
+  	flex-flow: nowrap;
+  	align-items: center;
+  	padding: 20px 50px 20px 0;
+  	position: fixed;
+  	z-index: 4;
+  	background-color: #2E2630;
+  	width: 100%;
+  	opacity: .8;
+}
+
+.nav a {
+
+	padding: 0 40px 0 50px;
+	color: #FFFFFF;
+  	text-decoration: none;
+  	font-size: 1.5vw;
+	margin-top: -5px;
+}
+.nav a:hover {
+
+  	color: #FC2277;
+}
+
+
+/*stylw the welcome section*/
+
+/*add animation class*/
+
+
+.container .welcome-sec {
+
+	background-color: #008b8b;
+  	color: #FFFFFF;
+  	text-align: center;
+  	height: auto;
+  	position: relative;
+
+
+}
+.welcome-sec .welcome-part {
+
+  	margin: 0 auto;
+ /*for animation*/
+
+}
+
+
+
+.welcome-part .photo-div {
+  padding: 70px 0 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.photo-div .photo {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.welcome-part h1 {
+  font-size: 4vw;
+  font-weight: 700;
+  padding: 0 0 10px 0;
+  font-family: "Gugi", cursive;
+}
+
+.welcome-part h1 span {
+  color: #A3395B;
+	font-size: 3vw
+}
+
+.welcome-part p {
+
+	font-size: 2vw;
+}
+.container .welcome-sec .about {
+  	width: 500px;
+  	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+.container .welcome-sec .about h2 {
+  font-size: 3vw;
+  font-weight: 600;
+  color: #A3395B;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.container .welcome-sec .about p {
+  	font-weight: 400;
+	padding-bottom: 10px;
+	line-height: 25px;
+	text-align: center;
+
+}
+
+.container .welcome-sec .about .social i {
+  padding: 15px 0 0 20px;
+  font-size: 25px;
+  color: #A3395B;
+}
+
+.container .welcome-sec .about .social i:hover {
+  color:#000;
+  cursor: pointer;
+}
+
+.
+/*style gallery section*/
+.item >
+
+.gallery-sec
+{
+	background-color: #008b8b;
+}
+.galleryh2{
+	font-size: 4vw;
+  font-family: "Gugi", cursive;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+	text-align: center;
+	margin-top: 5;
+	padding-top:2%;
+}
+/*style conatct section*/
+
+.contact {
+
+  background-color: #c0c0c0;
+  padding: 10px 0 20px 0;
+
+}
+
+.contact .contact-div {
+  margin: 20px auto;
+  text-align: center;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  width: 600px;
+  height: auto;
+  padding: 20px 0 20px 0;
+  box-shadow: 2px 3px #CFCFCF;
+}
+
+.contact .contact-div h2 {
+  font-size: 2vw;
+  font-family: "Gugi", cursive;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.contact .contact-div p {
+  font-size: 19px;
+  padding-top: 20px;
+}
+
+.contact .contact-div p span {
+  color: #A3395B;
+  font-weight: 700;
+}
+
+.contact .contact-div .email {
+  color: #A3395B;
+  padding-bottom: 2px;
+  padding-top: 10px;
+  border-bottom-style: dotted;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom-color: #A3395B;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.contact .social {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact .social a {
+  color: #000;
+
+
+}
+
+.contact .social i {
+
+	font-size: 25px;
+	padding-left: 10px;
+}
+.contact .social a:hover {
+  color:  #008b8b;
+}
+
+footer {
+  color: #A6A5A6;
+  text-align: center;
+  padding: 5px 30px;
+
+
+}
+
+
+/*style for mobile view on screen less than 500px*/
+
+@media only screen and (max-width: 500px) {
+
+	header .nav {
+
+		display: none;
+	}
+
+	.nav-icon, .mobile-navbar {
+
+		display: block;
+	}
+
+
+
+	.nav-icon i {
+
+		font-size: 40px;
+		color: white;
+		float: right;
+		margin: 10px;
+		cursor: pointer;
+
+	}
+
+	.menu {
+
+		position: absolute;
+		right: 5px;
+		top: 5px;
+		opacity: .9;
+		text-align: center;
+		list-style: none;
+		border-radius: 5px;
+		background-color: #2E2630;
+		z-index: 1;
+		height: 99vh;
+
+
+	}
+
+	.close i {
+
+		font-size: 40px;
+		text-align: right;
+		color: white;
+
+	}
+	.close {
+
+		position: absolute;
+		right: 1px;
+		top: 1px;
+		display: none;
+
+	}
+	.menu li:first-of-type {
+
+		margin-top: 200px;
+	}
+	.menu li {
+
+		margin: 40px;
+	}
+	.menu li a {
+
+		color: white;
+		text-decoration: none;
+		margin: 10px;
+		font-size: 30px;
+	}
+
+	.menu li a:hover {
+
+		color: #A3395B;
+
+	}
+
+/*	class of menu openning*/
+	.opened {
+
+		width: 98%;
+		transition: width 1s ease-in-out;
+
+	}
+
+	.closed {
+
+		width: 0%;
+		transition: width 1s ease-in-out;
+	}
+
+	.welcome-part h1 {
+
+		font-size: 40px;
+	}
+
+	.welcome-part h1 span {
+
+		font-size: 30px;
+	}
+
+	.welcome-part p {
+
+		font-size: 25px;
+	}
+
+	.container .welcome-sec .contain {
+
+		left: 45%;
+
+	}
+
+	.container .welcome-sec .about {
+
+		width: 90%;
+	}
+
+	.container .welcome-sec .about h2 {
+		font-size: 25px;
+	}
+
+	.item>img {
+		margin: 0 auto;
+		height:50%;
+
+	}
+
+	.contact .contact-div .email {
+		color: #A3395B;
+		padding-bottom: 2px;
+		padding-top: 10px;
+		border-bottom-style: dotted;
+		width: 100%;
+		margin: 0 auto;
+		border-bottom-color: #A3395B;
+		cursor: pointer;
+		font-size: 4vw;
+		background-color: #FFF;
+	}
+
+
+
+	.contact .contact-div {
+
+		width: 90%;
+	}
+
+	.contact .contact-div h2 {
+
+		font-size: 25px;
+
+	}
+
+	.contact .contact-div p {
+
+		font-size: 20px;
+	}
+}
