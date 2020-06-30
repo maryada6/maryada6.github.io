@@ -203,25 +203,11 @@ header .nav {
   font-size: 19px;
   padding-top: 20px;
 }
-.contact .contact-div .seen {
-  display:none;
-}
 .contact .contact-div p span {
   color: #A3395B;
   font-weight: 700;
 }
 
-.email {
-  color: #A3395B;
-  padding-bottom: 2px;
-  padding-top: 10px;
-  border-bottom-style: dotted;
-  width: 100%;
-  margin: 0 auto;
-  border-bottom-color: #A3395B;
-  cursor: pointer;
-  font-size: 25px;
-}
 
 .contact .social {
   margin: 0 auto;
@@ -376,10 +362,7 @@ footer {
 	}
 
 
-	.email
-	{
-		display:none;
-	}
+	
 	
 	 
 
@@ -399,17 +382,5 @@ footer {
 
 		font-size: 20px;
 	}
-	.contact .contact-div .seen{
-		color: #FF0000;
-		padding-bottom: 2px;
-		padding-top: 10px;
-		border-bottom-style: dotted;
-		width: 50%
-		margin: 0 auto;
-		border-bottom-color: #A3395B;
-		cursor: pointer;
-		font-size: 8px !important;
-		background-color: #FFF;
-	}
-
+	
 }
