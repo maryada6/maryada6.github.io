@@ -153,7 +153,7 @@ header .nav {
 .item  img
 {
 margin:0 auto !important;
-height:70vh !important;
+height:70vh !important
 
 }
 .item-active  img
@@ -161,6 +161,11 @@ height:70vh !important;
 margin:0 auto !important;
 height:70vh !important;
 
+}
+
+.item .odd
+{
+	margin:0 24% 0 24%;
 }
 .gallery-sec
 {
