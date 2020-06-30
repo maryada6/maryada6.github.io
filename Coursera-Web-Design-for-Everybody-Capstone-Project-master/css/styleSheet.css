@@ -150,11 +150,11 @@ header .nav {
 
 .
 /*style gallery section*/
-.item,.item-active img
+.item ,.item-active  img
 {
-margin:0 auto;
-height:70vh;
-display: none;
+margin:0 auto !important;
+height:70vh !important;
+
 }
 
 .gallery-sec
@@ -376,8 +376,8 @@ footer {
 	}
 
 	.item,.item-active img {
-		margin: 0 auto;
-		height:60vh;
+		margin: 0 auto !important;
+		height:60vh !important;
 
 	}
 
