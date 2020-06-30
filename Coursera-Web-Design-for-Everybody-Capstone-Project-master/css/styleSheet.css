@@ -150,10 +150,11 @@ header .nav {
 
 .
 /*style gallery section*/
-.item >img
+.item,.item-active img
 {
 margin:0 auto;
-height:90vh;
+height:70vh;
+
 }
 
 .gallery-sec
@@ -170,7 +171,7 @@ height:90vh;
 	margin-top: 5;
 	padding-top:2%;
 }
-/*style conatact section*/
+/*style contact section*/
 
 .contact {
 
@@ -330,7 +331,7 @@ footer {
 
 	}
 
-/*	class of menu openning*/
+/*class of menu openning*/
 	.opened {
 
 		width: 98%;
@@ -374,7 +375,7 @@ footer {
 		font-size: 25px;
 	}
 
-	.item>img {
+	.item,.item-active img {
 		margin: 0 auto;
 		height:60vh;
 
