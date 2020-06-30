@@ -105,7 +105,7 @@ header .nav {
 }
 
 .welcome-part h1 span {
-  color: #A3395B;
+  color: #000;
 	font-size: 3vw
 }
 
@@ -206,7 +206,7 @@ header .nav {
   font-weight: 700;
 }
 
-.contact .contact-div .email {
+.contact .contact-div .h2 {
   color: #A3395B;
   padding-bottom: 2px;
   padding-top: 10px;
@@ -239,7 +239,7 @@ header .nav {
 }
 
 footer {
-  color: #A6A5A6;
+  color: #000;
   text-align: center;
   padding: 5px 30px;
 
