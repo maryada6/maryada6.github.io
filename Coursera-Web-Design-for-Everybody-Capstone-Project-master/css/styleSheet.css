@@ -9,6 +9,7 @@
 
 }
 
+
 .nav-icon, .mobile-navbar {
 
 	display: none;
@@ -202,7 +203,9 @@ header .nav {
   font-size: 19px;
   padding-top: 20px;
 }
-
+.contact .contact-div .seen {
+  display:none;
+}
 .contact .contact-div p span {
   color: #A3395B;
   font-weight: 700;
