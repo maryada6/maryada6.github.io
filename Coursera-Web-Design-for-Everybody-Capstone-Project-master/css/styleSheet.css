@@ -150,7 +150,11 @@ header .nav {
 
 .
 /*style gallery section*/
-.item >
+.item >img
+{
+margin:0 auto;
+height:90vh;
+}
 
 .gallery-sec
 {
@@ -166,7 +170,7 @@ header .nav {
 	margin-top: 5;
 	padding-top:2%;
 }
-/*style conatct section*/
+/*style conatact section*/
 
 .contact {
 
@@ -372,7 +376,7 @@ footer {
 
 	.item>img {
 		margin: 0 auto;
-		height:50%;
+		height:40vh;
 
 	}
 
