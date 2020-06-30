@@ -207,7 +207,7 @@ header .nav {
   font-weight: 700;
 }
 
-.contact .contact-div h2 {
+.email {
   color: #A3395B;
   padding-bottom: 2px;
   padding-top: 10px;
@@ -372,7 +372,7 @@ footer {
 	}
 
 
-	.contact .contact-div .email {
+	 .email {
 		color: #A3395B;
 		padding-bottom: 2px;
 		padding-top: 10px;
