@@ -154,7 +154,7 @@ header .nav {
 {
 margin:0 auto;
 height:70vh;
-
+display: none;
 }
 
 .gallery-sec
