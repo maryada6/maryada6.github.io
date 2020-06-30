@@ -374,11 +374,11 @@ footer {
 
 
 	 .email {
-		color: #A3395B;
+		color: #FF0000;
 		padding-bottom: 2px;
 		padding-top: 10px;
 		border-bottom-style: dotted;
-		width: 100%;
+		width: 50%
 		margin: 0 auto;
 		border-bottom-color: #A3395B;
 		cursor: pointer;
