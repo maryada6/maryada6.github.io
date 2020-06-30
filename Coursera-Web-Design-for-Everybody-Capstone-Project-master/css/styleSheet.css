@@ -150,7 +150,7 @@ header .nav {
 
 .
 /*style gallery section*/
-.item ,.item-active  img
+.item  img,.item-active  img
 {
 margin:0 auto !important;
 height:70vh !important;
@@ -375,7 +375,7 @@ footer {
 		font-size: 25px;
 	}
 
-	.item,.item-active img {
+	.item  img,.item-active img {
 		margin: 0 auto !important;
 		height:60vh !important;
 
