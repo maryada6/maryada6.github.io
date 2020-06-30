@@ -150,23 +150,7 @@ header .nav {
 
 .
 /*style gallery section*/
-.item  img
-{
-margin:0 auto !important;
-height:70vh !important
 
-}
-.item-active  img
-{
-margin:0 auto !important;
-height:70vh !important;
-
-}
-
-.item .odd
-{
-	margin:0 24% 0 24%;
-}
 .gallery-sec
 {
 	background-color: #008b8b;
@@ -385,16 +369,6 @@ footer {
 		font-size: 25px;
 	}
 
-	.item  img {
-		margin: 0 auto !important;
-		height:60vh !important;
-
-	}
-	.item-active  img {
-		margin: 0 auto !important;
-		height:60vh !important;
-
-	}
 
 	.contact .contact-div .email {
 		color: #A3395B;
